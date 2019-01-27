@@ -1,4 +1,5 @@
 s=input()
-for i in range(len(s)):
-      print(s[i]+s[i+3])
-      break
+d=""
+for i in range(0,len(s),3):
+      d=d+s[i]
+print(d)  
