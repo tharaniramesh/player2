@@ -6,8 +6,8 @@ def pro(n):
 def pow1(n):
     a=0
     for j in range(1,n+1):
-        if pro(n):
-            a==j
+        if pro(j):
+            a=j
     return a        
 
 n=int(input())
@@ -16,4 +16,4 @@ if pro(n):
     
 else:
     a=pow1(n)
-    print('1')
+    print(n-a)
