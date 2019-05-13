@@ -4,5 +4,8 @@ b=[]
 for i in range(0,len(a)):
     if i==a[i]:
         b.append(a[i])
-c=sorted(b)
-print(*c)
+if len(b)==0:
+    print("-1")
+else:    
+    c=sorted(b)
+    print(*c)
